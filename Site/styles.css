@@ -1,0 +1,328 @@
+@media screen and (max-width:600px){
+    h1{
+
+        font-size: 25px;
+    }
+    .hight-navigation{
+        margin:0 auto;
+    }
+    .aboutus{
+        margin-left:5px ;
+        margin-right: 5px;
+    }
+    section{
+        margin-left:5%;
+        margin-right: 0px;
+    }
+    .section2 .conteinerblock2{
+        margin-right: 50%;
+    }
+}
+@media screen and (max-width:400px){
+    h1{
+        font-size: 25px;
+    }
+    .main-logo{
+        font-size: 15px;
+
+    }
+    .hight-navigation{
+        margin:0 auto;
+    
+    }
+    .hight-navigation li{
+        font-size: 15px;
+    }
+    .aboutus{
+        margin-left:5px ;
+        margin-right: 5px;
+    }
+    .picture{
+        width: 300px;
+        height: 400px;
+    }
+    
+    
+    
+
+}
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+body{
+    margin: 0px;
+    background-color: #0B1D26;
+}
+.img-header{
+    position: absolute;
+    margin: 0 0;
+    width: 100%;
+    z-index: -1;
+    height:100%;
+}
+header{
+    /* width: 100%;
+    height: 100%;
+    background-image: url("./images/Group 18.png");
+    background-size:cover; */
+}
+
+.header{
+    display: flex; 
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+.main-logo{
+    color:#FFFFFF;
+}
+.hight-navigation{
+    display: flex;
+    margin:0 auto;
+}
+.hight-navigation ul{
+    display:flex;
+}
+.hight-navigation ul li a{  
+    margin: 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+li{
+    color: #fff;;
+    list-style: none;
+}
+.account{
+    padding: 20px;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+}
+.header-main-text{
+    margin:0 auto;
+}
+.scroll-down{
+    display: flex;
+    color:#FFFFFF;
+}
+.scroll-down img{
+    height:18px;
+    width: 18px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.social{
+    margin-top: 5%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left:3% ;
+}
+.social img{
+    width: 24px;
+    height: 24px;
+    margin-top: 50%;
+
+}
+.social h6{
+    transform: rotate(90deg);
+    font-size: 18px;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.head-text{
+    display: flex;
+    color:#FBD784;
+    font-size: 18px;
+}
+.head-text {
+    position: absolute;
+}
+.footer .footer-text .logo{
+    color:#FFFFFF;
+}
+.footer .footer-text{
+    color:#fff;
+    margin-left:10% ;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.footer .column{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    margin-left:20px ;
+    margin-right:20px ;
+}
+.footer .footer-text{
+    width: 50%;
+}
+.footer li {
+    margin-bottom:10% ;
+}
+.column h4{
+    color: #FBD784;
+    margin-left: 20%;
+}
+.column .footer-menu2{
+    margin-right:20%;
+}
+.column .footer-menu2 h4{
+    margin-left:40px ;
+}
+.conteiner .conteinerblock1, .conteiner .conteinerblock2{
+  
+   position: relative;
+}
+.conteiner .conteinerblock1{
+    
+    float: left;
+    width: 50%;
+    min-width: 500px;
+}
+.conteiner .conteinerblock2{
+    float: right;
+    width: 50%;
+   
+}
+.conteiner .conteinerblock2 img{
+    float: right;
+}
+.conteiner .conteinerblock1 .numbers{
+    
+    position: absolute;
+    margin: 2%;
+    color: #FFFFFF;
+    opacity: 0.1;
+    font-weight: 700;
+    font-size: 240px;
+    left: -50px;
+    top:-150px;
+}
+.conteiner .conteinerblock1 .line, .conteiner .conteinerblock1 .line2{
+    color:#FBD784; 
+    margin-left: 4%;
+}
+.conteiner .conteinerblock1 .line{
+    border-bottom: 1px solid #FBD784;
+    width: 40px;
+    margin-bottom: 9px;
+}
+.conteinerblock1 p, .conteinerblock1 h2 {
+    color: #fff;
+}
+.conteinerblock1 .more{ 
+    display: flex;
+    color:#FBD784;
+}
+.conteinerblock1 .more img{
+    margin-left: 2%;
+}
+.conteinerblock1 p{
+    margin-right: 20%;
+}
+
+footer{
+    margin-top: 200px;
+}
+.all-line{
+    display: flex;
+}
+.section3{
+    margin-top: 200px;
+    display: block;
+}
+.section2{
+    margin-top: 200px;
+}
+.header-line{
+    border-bottom: 1px solid #FBD784;
+    width: 60px;
+    margin-bottom: 12px;
+}
+.double{
+    display: flex;
+
+}
+.header-title{
+    color:#FBD784;
+}
+.text-header{
+    color:#fff;
+    font-size: 50px;
+}
+
+.slaider li{
+    margin-bottom: 50%;
+}
+.slaider{
+    display: flex;
+    margin-right:3%;
+    margin-top:5%;
+}
+.slaider .slaidebar{
+        border-right:2px solid #fff ;
+        height: 125px;
+        margin-top: 20px;
+        margin-left: 10px;
+}
+.header-title{
+    font-size: 20px;
+    margin-left: 2%;
+}
+main h2{
+    font-size: 64px;
+}
+main p{
+    font-size: 18px;
+}
+.all-section{
+    margin-left:10%;
+    margin-right:10%;
+}
+ .section2, .section2 .conteinerblock2{
+    float: left;
+
+}
+.section2, .section2 .conteinerblock1{
+    float: right;
+} 
+.section2{
+    margin-bottom: 200px;
+
+}
+.section2 .conteinerblock2 img{
+    float:left;
+}
+.section2 .conteinerblock1 {
+    padding-top: 100px;
+}
+.section2 .conteinerblock1 .numbers{
+    position: absolute;
+    top:-50px;
+    margin-left: 50px;
+}
+.footer{
+    margin-top: 3000px;
+}
